@@ -1,4 +1,1 @@
 //Itérateur
-interface Livre {
-    categorieIteration()
-}
