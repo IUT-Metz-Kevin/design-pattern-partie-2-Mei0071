@@ -1,1 +1,4 @@
 //Itérateur
+interface Livre {
+    categorieIteration()
+}
