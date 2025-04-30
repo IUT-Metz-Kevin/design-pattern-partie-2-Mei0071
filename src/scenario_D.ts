@@ -1,1 +1,1 @@
-//chaineResponsabilité
+//stratégie
