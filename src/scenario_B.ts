@@ -46,42 +46,42 @@ class BaseElement{
 }
 
 class Avion1 extends BaseElement{
-    atterit():void{
+    /*atterit():void{
         console.log("L'avion 1 atterit");
         this.mediateur.notification(this,"1")
-    }
+    }*/
     Decole():void{
         console.log("L'avion 1 decole");
         this.mediateur.notification(this,"2")
     }
-    standBy():void{
+    /*standBy():void{
         console.log("L'avion 1 attend qu'une piste se libère pour atterir");
         this.mediateur.notification(this,"3")
-    }
+    }*/
 }
 class Avion2 extends BaseElement{
     atterit():void{
-        console.log("\nL'avion 2 atterit");
+        console.log("L'avion 2 atterit");
         this.mediateur.notification(this,"4")
     }
    Decole():void{
         console.log("\nL'avion 2 decole");
         this.mediateur.notification(this,"5")
     }
-    standBy():void{
+    /*standBy():void{
         console.log("L'avion 2 attend qu'une piste se libère pour atterir");
         this.mediateur.notification(this,"6")
-    }
+    }*/
 }
 class Avion3 extends BaseElement{
     atterit():void{
         console.log("L'avion 3 atterit");
         this.mediateur.notification(this,"7")
     }
-    Decole():void{
+    /*Decole():void{
         console.log("L'avion 3 decole");
         this.mediateur.notification(this,"8")
-    }
+    }*/
     standBy():void{
         console.log("L'avion 3 attend qu'une piste se libère pour atterir");
         this.mediateur.notification(this,"9")
